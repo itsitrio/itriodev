@@ -33,11 +33,11 @@ const Resume: React.FC = () => {
           <li>Budgetary planning.</li>
         </JobEntry>
         <JobEntry
-          title="IT Manager/Systems Administrator"
-          company="ASC Sunstone Circuits, LLC"
-          location="Oregon, USA"
-          dates="January 2020 - Present"
-          logo="sunstone-logo.png"
+          title="Event Logistics Coordinator"
+          company="WaterWolf Media, LLC"
+          location="Remote"
+          dates="December 2023 - Present"
+          logo="waterwolf-logo.png"
         >
           <li>Provisioning, installation, configuration, operation, and maintenance of hardware and software systems.</li>
           <li>Technical research and development.</li>

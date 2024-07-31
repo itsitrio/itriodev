@@ -43,7 +43,7 @@ const JobEntry: React.FC<JobEntryProps> = ({ title, company, location, dates, lo
       <div className={styles.header} onClick={children ? toggleOpen : undefined}>
         {logo && (
           <div className={styles.logo}>
-            <Image src={`/logos/${logo}`} alt={`${company} logo`} width={50} height={50} className={styles.logoImage} />
+            <img src={`/logos/${logo}`} alt={`${company} logo`} />
           </div>
         )}
         <div className={styles.headerText}>
