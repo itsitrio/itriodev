@@ -39,44 +39,14 @@ const Resume: React.FC = () => {
           dates="December 2023 - Present"
           logo="waterwolf-logo.png"
         >
-          <li>Helped bolster recognition by standardizing the application of brand logos and assets through the creation of a unified guideline document.</li>
-          <li>Facilitated engagements with non-profit organizations hosting public and paid events nationwide.</li>
-          <li>Organized and assisted with event planning and marketing efforts, including composing copy, designing material, and publishing content packages consistent with expectations.</li>
-          <li>Performed project management tasks to ensure deadlines were met either on-time or ahead of scheduled where possible.</li>
-        </JobEntry>
-        <JobEntry
-          title="Professional Services Engineer"
-          company="Executech"
-          location="Remote"
-          dates="February 2020 - October 2022"
-          logo="executech-logo.jpg"
-        >
-          <li>Designed and implemented network and server infrastructure, managed client expectations and project resources, and resolved issues.</li>
-          <li>Created professional documentation for implementations, facilitated hand-offs between teams and clients, and ensured compliance with HIPAA, SOC2, and NIST.</li>
-          <li>Used Sophos security products to monitor and secure client environments, including Firewall, Intercept X Advanced with MTR, and Email Gateway.</li>
-          <li>Lead a team of approximately 4-6 technicians in day-to-day activities, training, and more.</li>
-        </JobEntry>
-        <JobEntry
-          title="VoIP Technical Support Specialist"
-          company="J-Curve Technologies"
-          location="Tempe, AZ"
-          dates="June 2018 - August 2019"
-          logo="jcurve-logo.jpg"
-        >
-          <li>Utilized Cisco Broadworks, and Broadsoft M6 to manage and troubleshoot SIP voice endpoints while providing "White Glove" business-to-business technical support for a large telecommunications company.</li>
-          <li>Performed monitoring of T1 through T3 circuits and POTS connections, managed Cisco and Adtran routers and switches, verified DHCP pools, and performed network troubleshooting using the OSI and TCP/IP models.</li>
-          <li>Engaged advanced technical contacts when necessary to resolve out-of-scope issues, and performed peer leadership tasks as requested by management, such as coaching and training.</li>
-        </JobEntry>
-        <JobEntry
-          title="Manager of Technology"
-          company="M&D Playhouse"
-          location="North Conway, NH"
-          dates="October 2011 - December 2018"
-          logo="mdplayhouse.jpg"
-        >
-          <li>Managed all aspects of the company network to build, deploy and maintain a full Active Directory environment.</li>
-          <li>Designed and implemented an Asterisk VoIP PBX consisting of soft-phone and Cisco endpoints.</li>
-          <li>Maintained the company Point of Sale systems for both ticketing and concessions, and lead in training and deployments.</li>
+          <li>Provisioning, installation, configuration, operation, and maintenance of hardware and software systems.</li>
+          <li>Technical research and development.</li>
+          <li>Assisting project teams with technical issues.</li>
+          <li>Overseeing compliance activities.</li>
+          <li>Implementing systems monitoring and alerting infrastructure.</li>
+          <li>Designing backups, archiving, and disaster recovery plans.</li>
+          <li>Managing the IT department.</li>
+          <li>Budgetary planning.</li>
         </JobEntry>
         {/* Add more JobEntry components as needed */}
       </section>

@@ -24,9 +24,9 @@
     margin-right: 10px;
     width: 60px; /* Ensure the logo container has a fixed width */
     height: 60px; /* Ensure the logo container has a fixed height */
-    border-radius: 25%; /* Squircle shape */
+    border-radius: 100%; /* Squircle shape */
     overflow: hidden;
-    border: 2px solid rgba(var(--foreground-rgb), 0.2); /* Subtle outline */
+    border: 0px solid rgba(var(--foreground-rgb), 0.2); /* Subtle outline */
     background-color: black;
   }
   
