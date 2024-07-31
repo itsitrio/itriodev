@@ -1,11 +1,18 @@
 // pages/resume.tsx
 import JobEntry from '../components/JobEntry';
+import styles from '../styles/resume.module.css';
 
 const Resume: React.FC = () => {
   return (
     <div className="max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto p-4">
-      <h1 className="text-center text-3xl font-bold mb-8">My Resume</h1>
-      
+      <header className={styles.header}>
+        <h1 className={styles.header}>Nickolas James</h1>
+        <div className={styles.buttonGroup}>
+          <a href="mailto:hello@nickjames.us">Email</a>
+          <a href="tel:+16025920590">Phone</a>
+          <a href="https://www.linkedin.com/in/itsnickjames" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+      </header>
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Summary</h2>
         <p className="mb-4">
