@@ -63,7 +63,7 @@ const Resume: React.FC = () => {
           dates="June 2018 - August 2019"
           logo="jcurve-logo.jpg"
         >
-          <li>Utilized Cisco Broadworks, and Broadsoft M6 to manage and troubleshoot SIP voice endpoints while providing "White Glove" business-to-business technical support for a large telecommunications company.</li>
+          <li>Utilized Cisco Broadworks, and Broadsoft M6 to manage and troubleshoot SIP voice endpoints while providing &quot;White Glove&quot; business-to-business technical support for a large telecommunications company.</li>
           <li>Performed monitoring of T1 through T3 circuits and POTS connections, managed Cisco and Adtran routers and switches, verified DHCP pools, and performed network troubleshooting using the OSI and TCP/IP models.</li>
           <li>Engaged advanced technical contacts when necessary to resolve out-of-scope issues, and performed peer leadership tasks as requested by management, such as coaching and training.</li>
         </JobEntry>
