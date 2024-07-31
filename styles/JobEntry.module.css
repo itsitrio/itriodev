@@ -1,0 +1,116 @@
+/* styles/JobEntry.module.css */
+.jobEntry {
+    margin-bottom: 20px;
+    border: 1px solid rgba(var(--foreground-rgb), 0.2);
+    border-radius: 8px;
+    padding: 16px;
+    background-color: rgba(144, 238, 144, 0.2); /* Light green background color */
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .jobEntry:hover {
+    background-color: rgba(144, 238, 144, 0.4); /* Darker green on hover */
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    flex-shrink: 0;
+    margin-right: 10px;
+    border-radius: 15%; /* Squircle shape */
+    overflow: hidden;
+    border: 2px solid rgba(var(--foreground-rgb), 0.2); /* Subtle outline */
+  }
+  
+  .logoImage {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .headerText {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .headerInfo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 2px; /* Reduce space between title and company */
+  }
+  
+  .company {
+    font-style: italic;
+    margin: 2px 0; /* Reduce space between title and company */
+  }
+  
+  .dates {
+    font-size: 1em;
+    color: #666;
+    margin-left: auto;
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    transition: transform 0.3s ease;
+    margin-left: 10px; /* Add space around the arrow */
+  }
+  
+  .arrowClosed {
+    border-top: 6px solid rgba(var(--foreground-rgb), 0.7);
+  }
+  
+  .arrowOpen {
+    border-bottom: 6px solid rgba(var(--foreground-rgb), 0.7);
+  }
+  
+  .descriptionWrapper {
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .description {
+    margin: 5px 0;
+    padding-left: 1.5em;
+  }
+  
+  .description li {
+    margin: 5px 0;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .jobEntry {
+      border-color: rgba(var(--foreground-rgb), 0.5);
+      background-color: rgba(144, 238, 144, 0.1); /* Adjust background for dark mode */
+    }
+    .jobEntry:hover {
+      background-color: rgba(144, 238, 144, 0.2); /* Adjust hover background for dark mode */
+    }
+    .logo {
+      border-color: rgba(var(--foreground-rgb), 0.5);
+    }
+    .arrowClosed {
+      border-top: 6px solid rgba(var(--foreground-rgb), 1);
+    }
+    .arrowOpen {
+      border-bottom: 6px solid rgba(var(--foreground-rgb), 1);
+    }
+  }
+  
