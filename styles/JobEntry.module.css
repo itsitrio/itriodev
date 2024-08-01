@@ -1,12 +1,13 @@
 /* styles/JobEntry.module.css */
 .jobEntry {
     margin-bottom: 20px;
-    border: 1px solid rgba(var(--foreground-rgb), 0.2);
+    border: 0px solid rgba(var(--foreground-rgb), 0.2);
     border-radius: 8px;
     padding: 16px;
     background-color: rgba(144, 238, 144, 0.2); /* Light green background color */
     transition: background-color 0.3s ease;
     cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .jobEntry:hover {
