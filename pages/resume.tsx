@@ -1,5 +1,6 @@
 // pages/resume.tsx
 import React, { useState } from 'react';
+import Head from 'next/head';
 import JobEntry from '../components/JobEntry';
 import styles from '../styles/resume.module.css';
 import skillsStyles from '../styles/TechnicalSkills.module.css';
@@ -8,6 +9,10 @@ import { FiServer as FaVirtualMachine } from 'react-icons/fi';
 
 const Resume: React.FC = () => {
   return (
+    <>
+      <Head>
+        <title>Nickolas James | Resume</title>
+      </Head>
     <div className="max-w-full md:max-w-3xl lg:max-w-4xl xl:max-w-5xl 2xl:max-w-6xl mx-auto p-4">
       <header className={styles.header}>
         <h1 className={styles.header}>Nickolas James</h1>
@@ -152,6 +157,7 @@ const Resume: React.FC = () => {
         {/* Add more JobEntry components as needed */}
       </section>
     </div>
+    </>
   );
 };
 
