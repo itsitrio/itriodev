@@ -97,18 +97,6 @@ const Resume: React.FC = () => {
           <li>Performed project management tasks to ensure deadlines were met either on-time or ahead of scheduled where possible.</li>
         </JobEntry>
         <JobEntry
-          title="System Administrator"
-          company="Echelon Technologies"
-          location="Arizona, USA"
-          dates="August 2019 - Febrary 2020"
-          logo="ettech-logo.png"
-        >
-          <li>Worked with existing clients to ensure deployed solutions were operating within expectations, and provided recommendations for improvements and upgrades where applicable. </li>
-          <li>Implimented and maintained the internal knowledgebase for the organization. </li>
-          <li>Monitored, maintained and services over 400 endpoints for over 70 clients. </li>
-          <li>Provisioned and deployed Windows Server 2012 hosts and virtual machines, using Hyper-V or VMWare ESXi as required or warranted.</li>
-        </JobEntry>
-        <JobEntry
           title="Professional Services Engineer"
           company="Executech"
           location="Arizona, USA"
@@ -119,6 +107,18 @@ const Resume: React.FC = () => {
           <li>Created professional documentation for implementations, facilitated hand-offs between teams and clients, and ensured compliance with HIPAA, SOC2, and NIST.</li>
           <li>Used Sophos security products to monitor and secure client environments, including Firewall, Intercept X Advanced with MTR, and Email Gateway.</li>
           <li>Lead a team of approximately 4-6 technicians in day-to-day activities, training, and more.</li>
+        </JobEntry>
+        <JobEntry
+          title="System Administrator"
+          company="Echelon Technologies"
+          location="Arizona, USA"
+          dates="August 2019 - Febrary 2020"
+          logo="ettech-logo.png"
+        >
+          <li>Worked with existing clients to ensure deployed solutions were operating within expectations, and provided recommendations for improvements and upgrades where applicable. </li>
+          <li>Implimented and maintained the internal knowledgebase for the organization. </li>
+          <li>Monitored, maintained and services over 400 endpoints for over 70 clients. </li>
+          <li>Provisioned and deployed Windows Server 2012 hosts and virtual machines, using Hyper-V or VMWare ESXi as required or warranted.</li>
         </JobEntry>
         <JobEntry
           title="VoIP Technical Support Specialist"
