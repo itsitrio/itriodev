@@ -39,8 +39,8 @@ const JobEntry: React.FC<JobEntryProps> = ({ title, company, location, dates, lo
   }, [isOpen]);
 
   return (
-    <div className={`${styles.jobEntry} ${isOpen ? styles.open : styles.closed}`}>
-      <div className={styles.header} onClick={children ? toggleOpen : undefined}>
+    <div className={`${styles.jobEntry} ${isOpen ? styles.open : styles.closed}`} onClick={children ? toggleOpen : undefined}>
+      <div className={styles.header} >
         {logo && (
           <div className={styles.logo}>
             <img src={`/logos/${logo}`} alt={`${company} logo`} />
