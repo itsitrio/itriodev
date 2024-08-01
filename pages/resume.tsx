@@ -66,7 +66,7 @@ const Resume: React.FC = () => {
           title="IT Manager/Systems Administrator"
           company="ASC Sunstone Circuits, LLC"
           location="Oregon, USA"
-          dates="January 2020 - Present"
+          dates="November 2022 - Present"
           logo="sunstone-logo.png"
           isOpenByDefault={true}
         >
@@ -95,7 +95,7 @@ const Resume: React.FC = () => {
           title="Professional Services Engineer"
           company="Executech"
           location="Arizona, USA"
-          dates="February 2020 - October 2022"
+          dates="February 2020 - November 2022"
           logo="executech-logo.jpg"
         >
           <li>Designed and implemented network and server infrastructure, managed client expectations and project resources, and resolved issues.</li>
