@@ -142,6 +142,17 @@ const Resume: React.FC = () => {
           <li>Designed and implemented an Asterisk VoIP PBX consisting of soft-phone and Cisco endpoints.</li>
           <li>Maintained the company Point of Sale systems for both ticketing and concessions, and lead in training and deployments.</li>
         </JobEntry>
+        <JobEntry
+          title="Production Assistant"
+          company="Whitehorse Press"
+          location="New Hampshire, USA"
+          dates="October 2013 - October 2016 "
+          logo="whitehorse-logo.jpg"
+        >
+          <li>Produced email marketing materials that were delivered weekly to over 40,000 active subscribers. </li>
+          <li>Managed and maintained a Magento eCommerce installation and import/export of product inventory counts from multiple systems.</li>
+          <li>Proofread works being sent to print.</li>
+        </JobEntry>
         {/* Add more JobEntry components as needed */}
       </section>
 
