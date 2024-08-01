@@ -1,6 +1,10 @@
 // pages/resume.tsx
+import React, { useState } from 'react';
 import JobEntry from '../components/JobEntry';
 import styles from '../styles/resume.module.css';
+import skillsStyles from '../styles/TechnicalSkills.module.css';
+import { FaCloud, FaLock, FaServer, FaPhone, FaShieldAlt, FaNetworkWired } from 'react-icons/fa';
+import { FiServer as FaVirtualMachine } from 'react-icons/fi';
 
 const Resume: React.FC = () => {
   return (
@@ -19,7 +23,43 @@ const Resume: React.FC = () => {
           An experienced IT Manager and Systems Administrator with a strong background in hardware and software systems, technical research and development, and compliance activities. Skilled in managing IT departments, implementing monitoring and alerting infrastructure, and designing backup and disaster recovery plans.
         </p>
       </section>
-
+      <section className={`${skillsStyles.skillsSection}`}>
+        <h2>Technical Skills</h2>
+        <ul className={skillsStyles.skillsList}>
+          <li>
+            <strong>Cloud SaaS & Remote Management</strong>
+            <span>Azure Virtual Desktop, Azure VMSS, Powershell, Citrix Virtual Apps & Desktops, ConnectWise Automate</span>
+          </li>
+          <li>
+            <strong>Authentication & Identity Management</strong>
+            <span>DUO MFA, Microsoft Active Directory, Microsoft Entra ID, Microsoft Intune, Microsoft Purview</span>
+          </li>
+          <li>
+            <strong>Hardware & OS</strong>
+            <span>Dell, HPE, Ubiquiti, Microsoft Windows, macOS, Linux, Android, iOS, Windows Server, TrueNAS, unRAID</span>
+          </li>
+          <li>
+            <strong>VoIP Telephony</strong>
+            <span>Broadworks R22, Broadsoft M6, Asterisk, Shoretel, SIP, Polycom Phones, Cisco Phones, Call Flow Design, OCOM/Palladian, SIP Trunking</span>
+          </li>
+          <li>
+            <strong>Compliance & Security</strong>
+            <span>PCI Compliance, NIST 800-171r2, Data Protection, Cybersecurity Best Practices</span>
+          </li>
+          <li>
+            <strong>Networking</strong>
+            <span>DHCP, DNS, Cisco Routing & Switching, TCP/IP, OSI Model, SSH</span>
+          </li>
+          <li>
+            <strong>Virtualization</strong>
+            <span>VMware ESXi & vCenter, Proxmox/KVM</span>
+          </li>
+        </ul>
+      </section>      
+      
+      
+      
+      
       <section className="mb-8">
         <h2 className="text-2xl font-semibold mb-4">Work Experience</h2>
         <JobEntry
@@ -54,7 +94,7 @@ const Resume: React.FC = () => {
         <JobEntry
           title="Professional Services Engineer"
           company="Executech"
-          location="Remote"
+          location="Arizona, USA"
           dates="February 2020 - October 2022"
           logo="executech-logo.jpg"
         >
@@ -66,7 +106,7 @@ const Resume: React.FC = () => {
         <JobEntry
           title="VoIP Technical Support Specialist"
           company="J-Curve Technologies"
-          location="Tempe, AZ"
+          location="Arizona, USA"
           dates="June 2018 - August 2019"
           logo="jcurve-logo.jpg"
         >
@@ -77,7 +117,7 @@ const Resume: React.FC = () => {
         <JobEntry
           title="Manager of Technology"
           company="M&D Playhouse"
-          location="North Conway, NH"
+          location="New Hampshire, USA"
           dates="October 2011 - December 2018"
           logo="mdplayhouse.jpg"
         >

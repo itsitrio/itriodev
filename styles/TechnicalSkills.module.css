@@ -1,0 +1,67 @@
+/* styles/TechnicalSkills.module.css */
+.skillsSection {
+    margin-bottom: 2rem;
+    padding: 2rem;
+    background-color: #f9fafb;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skillsSection h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #1a73e8;
+    position: relative;
+  }
+  
+  .skillsSection h2::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: #1a73e8;
+    margin: 0.5rem auto 0;
+    border-radius: 2px;
+  }
+  
+  .skillsList {
+    display: grid;
+    grid-template-columns: max-content auto;
+    gap: 1rem 2rem;
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .skillsList li {
+    display: contents;
+  }
+  
+  .skillsList li strong {
+    text-align: right;
+    font-weight: 600;
+    color: #1a73e8;
+    align-self: center;
+  }
+  
+  .skillsList li span {
+    color: #555;
+  }
+  
+  @media (max-width: 768px) {
+    .skillsList {
+      display: block;
+    }
+  
+    .skillsList li {
+      display: block;
+      margin-bottom: 1rem;
+    }
+  
+    .skillsList li strong {
+      text-align: left;
+      display: block;
+      margin-bottom: 0.5rem;
+    }
+  }
+  
